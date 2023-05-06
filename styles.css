@@ -123,8 +123,12 @@ header{
     height: 45px;
 }
 
-.main-section-card-bg-quotes{
-    transform: translate(-32px, -60px);
+.main-section-card-bg-quotes-desktop{
+    transform: translate(10px, 100px);
+}
+
+.main-section-card-bg-quotes-mobile{
+    display: none;
 }
 
 .main-section-get-started{
@@ -319,7 +323,6 @@ footer{
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 28% 18% 10% 17% 12%;
-        gap: 1.5rem;
     }
 
     .footer-content-link-2{
@@ -338,5 +341,14 @@ footer{
     .header-links ul{
         display: flex;
         gap: 8px;
+    }
+
+    .main-section-card-bg-quotes-desktop{
+        display: none;
+    }
+
+    .main-section-card-bg-quotes-mobile{
+        display: block;
+        transform: translate(-6px, 190px);
     }
 }
