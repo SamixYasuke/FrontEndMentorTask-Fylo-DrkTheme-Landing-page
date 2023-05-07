@@ -305,10 +305,6 @@ footer{
         margin-top:0;
     }
 
-    .main-section-get-started{
-        width: 80vw;
-    }
-
     .main-section-get-started input{
         display: block;
         width: 60vw;
@@ -331,7 +327,7 @@ footer{
 
     .footer-img{
         width: auto;
-        margin-top: 50px;
+        margin-top: 140px;
     }
     
     .header-icon img{
@@ -350,5 +346,13 @@ footer{
     .main-section-card-bg-quotes-mobile{
         display: block;
         transform: translate(-6px, 190px);
+    }
+
+    .main-section-get-started{
+        background-color: hsl(217, 28%, 15%);
+        width: 80vw;
+        margin: 0 auto;
+        padding: 20px 30px;
+        transform: translateY(200px);
     }
 }
