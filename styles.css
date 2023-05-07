@@ -137,6 +137,7 @@ header{
     margin: 0 auto;
     padding: 20px 30px;
     transform: translateY(100px);
+    border-radius: 12px;
 }
 
 .main-section-get-started-input{
@@ -212,6 +213,7 @@ footer{
 .footer-content-link-2 ul li a{
     text-decoration: none;
 }
+
 
 @media (max-width: 1029px) {
     .main-section-get-started input{
@@ -354,7 +356,6 @@ footer{
         margin: 0 auto;
         padding: 20px 30px;
         transform: translateY(200px);
-        border-radius: 15px;
-        box-shadow: 400px;
+        border-radius: 12px;
     }
 }
