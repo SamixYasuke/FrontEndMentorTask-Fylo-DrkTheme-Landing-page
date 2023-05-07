@@ -354,5 +354,7 @@ footer{
         margin: 0 auto;
         padding: 20px 30px;
         transform: translateY(200px);
+        border-radius: 15px;
+        box-shadow: 400px;
     }
 }
