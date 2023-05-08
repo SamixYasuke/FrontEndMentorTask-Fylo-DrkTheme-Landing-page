@@ -235,6 +235,20 @@ footer{
     }
 }
 
+@media (max-width: 730px) {
+    .main-section-cards{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 26% 26% 26%;
+        padding: 0 10px;
+        margin: 0 70px;
+    }
+
+    .main-section-card{
+        margin-top:0;
+    }
+}
+
 @media (max-width: 620px) {
     .main-section-get-started input{
         display: block;
@@ -285,7 +299,6 @@ footer{
         grid-template-columns: 100%;
         grid-template-rows: 46% 46%;
         padding: 0 50px;
-        margin-bottom: 140px;
     }
 
     .main-section-body-img{
