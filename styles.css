@@ -394,4 +394,8 @@ footer{
         transform: translateY(200px);
         border-radius: 12px;
     }
+
+    .footer-content-social-media{
+        margin-top: 40px;
+    }
 }
